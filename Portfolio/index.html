@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anish's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="wrapper">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo-container">
+                    <img src="./image/usserAsset/a.png" alt="Anish Image" class="logo">
+                    <div class="logo-text">nish Das</div>
+                </div>
+                <div class="nav-items">
+                    <div><a href="#projects">Projects</a></div>
+                    <div><a href="#skills">Skills</a></div>
+                    <div><a href="#contactme">Contact Me</a></div>
+                 </div>
+            </div>
+            <div class="hero-section">
+                <div class="absolute faded-text">Anish Das</div>
+                <div class="hero-section-left">
+                    <div class="hero-section-heading">Hi! Anish Das</div>
+                    <div class="hero-section-heading hero-section-sub-heading">
+                        I am a <span class="role"></span>
+                    </div>
+                    <div class="hero-section-description">I'm a front-end developer who loves coding and solving problems. I've solved over 350 challenges on LeetCode, constantly improving my skills. Whether it's making user-friendly interfaces or writing efficient code, I enjoy finding smart solutions. Always eager to learn more and grow in web development!</div>
+                    <div class="btn-red" id="btn">Hire me</div>
+                </div>
+                <div class="hero-section-right">
+                    <div class="absolute icons icon-dots">
+                        <img src="./image/usserAsset/dots.png" alt="">
+                    </div>
+                    <div class="absolute icons icon-cube">
+                        <img src="./image/usserAsset/block.png" alt="">
+                    </div>
+                    <div class="absolute icons icon-cir">
+                        <img src="./image/usserAsset/cir.png" alt="">
+                    </div>
+                    <div class="absolute icons icon-zigzag">
+                        <img src="./image/usserAsset/zig-zag.png" alt="">
+                    </div>
+                    <div class="absolute icons icon-plus">
+                        <img src="./image/usserAsset/add.png" alt="">
+                    </div>
+                    <div class="user-image">
+                        <img src="./image/usserAsset/Userimage.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="project-section">
+            <h2 class="page-header">Projects</h2>
+            <div class="project-container">
+                <div class="project-card" id="project1">
+                    <div class="project-number">01</div>
+                    <div class="project-content">
+                        <div class="project-skills-container">
+                            <img class="project-skill" src="./image/usserAsset/html.png" alt="html image">
+                            <img class="project-skill" src="./image/usserAsset/css.png" alt="css image"> 
+                        </div>
+                    
+                    <h2 class="project-heading">Mongzone</h2>
+                    <div class="project-subheading">The Amazon UI Clone Project aims to replicate the basic visual appearance and layout of the Amazon website using HTML and CSS.</div>
+                    <div class="btn-grp">
+                        <div class="btn-red btn-project">Read More</div>
+                        <a href="https://github.com/AniOpd">
+                            <i title="GitHubLink" class="fa-brands fa-github icon"></i>
+                        </a>
+                        <a href="https://main--mongozon.netlify.app/">
+                            <i title="LiveLink" class="fa-solid fa-link icon"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    
+    
+    
+    
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="https://kit.fontawesome.com/9b7ab9b9b4.js" crossorigin="anonymous"></script>
+    <script>
+        var typeData=new Typed(".role",{
+            strings:[
+                "Front-End Developer",
+                "Problem Solver",
+                "Coder",
+                "web Developer",
+            ],
+            loop:true,
+            typeSpeed:100,
+            backSpeed:50,
+            backDelay:2000,
+        });
+    </script>
+</body>
+</html>
