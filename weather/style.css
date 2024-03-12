@@ -1,0 +1,14 @@
+
+
+
+
+.tab.current-tab{
+    background-color: rgb(15, 139, 98);
+     border-radius: 6px;
+}
+
+.form-container{
+    scale:1;
+    opacity: 1;
+    display: flex;
+}

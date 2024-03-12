@@ -25,7 +25,7 @@
             </div>
 
             <!-- search form -->
-            <form class="form-container">
+            <form class="form-container" data-search-form>
                 <input placeholder="Search for city...." data-searchInprt>
             <button class="btn">
                 <img src="./assets/find.png" alt="search image" width="20" height="20" loading="lazy">
@@ -46,14 +46,32 @@
             <p data-WeaterDisc></p>
             <img data-weatherImage>
             <p data-temp></p>
-
+            
+            <!-- 3 cards parameter -->
+            <div class="parameter-container">
+                <div class="parameter">
+                    <img src="./assets/wind.png" alt="">
+                    <p>WindSpeed</p>
+                    <p data-windspeed></p>
+                </div>
+                <div class="parameter">
+                    <img src="./assets/humidity.png" alt="">
+                    <p>humidity</p>
+                    <p data-humidity></p>
+                </div>
+                <div class="parameter">
+                    <img src="./assets/cloud.png" alt="">
+                    <p>cloud</p>
+                    <p data-cloudiness></p>
+                </div>
+            </div>
         </div>
 
     </div>
 
 
 
-    <script src="script.js">
+    <script src="./script.js">
     </script>
 </body>
 </html>
