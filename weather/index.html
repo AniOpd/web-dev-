@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Basic Weather app by anish</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -17,32 +17,33 @@
 
         <div class="weather-container">
             <!-- grant location container -->
-            <div class="grant-location-container">
+            <div class="sub-container grant-location-container">
                 <img src="./assets/location.png" alt="loaction image" width="80" height="80" loading="lazy">
                 <p>grant loaction access</p>
                 <p>allow access to get weather info</p>
-                <div class="btn" grant-location>Grant Access</div>
+                <button class="btn" grant-location>Grant Access</button >
             </div>
 
             <!-- search form -->
-            <form class="form-container" data-search-form>
-                <input placeholder="Search for city...." data-searchInprt>
-            <button class="btn">
+            <form class=" form-container" data-search-form>
+                <input placeholder="Search for city...." data-searchInput>
+            <button class="btn" type="submit">
                 <img src="./assets/find.png" alt="search image" width="20" height="20" loading="lazy">
             </button>
             </form>
 
             <!-- loading container -->
-            <div class="loading-container">
+            <div class="sub-container loading-container">
                 <img src="./assets/loading.gif" alt="loading" width="150" height="150">
                 <p>loading</p>
             </div>
 
             <!-- show weather info -->
-            <div class="user-info-container">
-                <p data-cityName></p>
-                <img data-countryIcon>
-            </div>
+            <div class="sub-container user-info-container">
+                <div class="name">
+                    <p data-cityName></p>
+                    <img data-countryIcon>                    
+                </div>
             <p data-WeaterDisc></p>
             <img data-weatherImage>
             <p data-temp></p>
@@ -50,20 +51,21 @@
             <!-- 3 cards parameter -->
             <div class="parameter-container">
                 <div class="parameter">
-                    <img src="./assets/wind.png" alt="">
+                    <img src="./assets/wind.png" alt=""class="image-sizing">
                     <p>WindSpeed</p>
                     <p data-windspeed></p>
                 </div>
                 <div class="parameter">
-                    <img src="./assets/humidity.png" alt="">
+                    <img src="./assets/humidity.png" alt=""class="image-sizing">
                     <p>humidity</p>
                     <p data-humidity></p>
                 </div>
                 <div class="parameter">
-                    <img src="./assets/cloud.png" alt="">
+                    <img src="./assets/cloud.png" alt="" class="image-sizing">
                     <p>cloud</p>
                     <p data-cloudiness></p>
                 </div>
+            </div>
             </div>
         </div>
 
